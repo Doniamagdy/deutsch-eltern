@@ -7,6 +7,7 @@ import puma from "../../assets/puma.png";
 import dose from "../../assets/dose.png";
 import pinsel from "../../assets/pinsel.png";
 import lineal from "../../assets/lineal.png";
+import domino from "../../assets/domino.png"
 
 const sentences = [
   {
@@ -42,7 +43,7 @@ const sentences = [
     title: "das Domino",
     sentence1: "Das ist das Domino.",
     sentence2: "Das ist mein Domino.",
-    image: hase,
+    image: domino,
   },
   {
     id: 6,

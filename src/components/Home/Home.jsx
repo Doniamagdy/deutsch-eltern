@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {  ArrowUpRight, Rabbit } from "lucide-react";
+import {  ArrowUpRight, Rabbit , Club} from "lucide-react";
 import "./Home.css";
 
 const lessons = [
@@ -9,6 +9,13 @@ const lessons = [
     description: "Lerne neue Wörter in dieser Deutschlektion.",
     icon: Rabbit,
     number: "01",
+  },
+   {
+    slug: "spiele",
+    title: "Spielen wir Karten?",
+    description: "Lerne neue Wörter in dieser Deutschlektion.",
+    icon: Club,
+    number: "02",
   },
  
 ];
